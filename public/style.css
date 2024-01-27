@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 30%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+    top:15%;
+    left:35%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.form h1{
+    color: #fff;
+    margin: 10px 0px;
+    text-align: center;
+}
+.form input,form textarea{
+width: 100%;
+padding: 0.5rem;
+margin: 5px 0px;
+}
+.form .btn{
+    width: 50%;
+    background-color: orangered;
+    color: white;
+    border: 5px;
+    padding: 5px;
+    margin: 5px auto;
+}
